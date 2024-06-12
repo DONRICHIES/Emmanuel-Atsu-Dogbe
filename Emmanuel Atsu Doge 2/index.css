@@ -1,0 +1,249 @@
+            /* Global Styles */
+            
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background-color: #f9f9f9;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-weight: bold;
+                color: #212121;
+                margin-bottom: 10px;
+            }
+            
+            p {
+                margin-bottom: 20px;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #337ab7;
+            }
+            
+            a:hover {
+                color: #23527c;
+            }
+            /* Header Styles */
+            
+            .header {
+                background-color: #333;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            .logo {
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .hamburger {
+                display: none;
+            }
+            
+            .menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .menu-list {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .menu-list-items {
+                margin-right: 20px;
+            }
+            
+            .links {
+                color: #fff;
+                transition: color 0.2s ease;
+            }
+            
+            .links:hover {
+                color: #ccc;
+            }
+            /* Hero Section Styles */
+            
+            .hero {
+                background-image: linear-gradient(to bottom, #333, #444);
+                background-size: 100% 300px;
+                background-position: 0% 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+            }
+            
+            .intro {
+                text-align: center;
+            }
+            
+            .headings {
+                margin-bottom: 20px;
+            }
+            
+            .greet-heading {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            
+            .my-heading {
+                font-size: 48px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            
+            .sub-heading {
+                font-size: 18px;
+                font-weight: normal;
+                margin-bottom: 20px;
+            }
+            
+            .intro-buttons {
+                margin-top: 20px;
+            }
+            
+            .btn {
+                background-color: #337ab7;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            
+            .btn:hover {
+                background-color: #23527c;
+            }
+            
+            .common-btn {
+                margin-right: 10px;
+            }
+            
+            .ghost-btn {
+                background-color: transparent;
+                border: 1px solid #337ab7;
+                color: #337ab7;
+            }
+            
+            .ghost-btn:hover {
+                background-color: #337ab7;
+                color: #fff;
+            }
+            /* Portfolio Section Styles */
+            
+            .portfolio {
+                padding: 40px;
+            }
+            
+            .portfolio-heading {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            
+            .portfolio-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .my-row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .my-col {
+                flex-basis: 30%;
+                margin: 20px;
+            }
+            
+            .my-card {
+                background-color: #fff;
+                padding: 20px;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .image {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 10px 10px 0 0;
+            }
+            
+            .port-card {
+                margin-bottom: 20px;
+            }
+            
+            .blue-text {
+                color: #337ab7;
+            }
+            /* About Section Styles */
+            
+            .about {
+                padding: 40px;
+            }
+            
+            .about-heading {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            
+            .about-content {
+                text-align: center;
+            }
+            
+            .about-para {
+                margin-bottom: 20px;
+            }
+            /* Services Section Styles */
+            
+            .services {
+                padding: 40px;
+            }
+            
+            .services-heading {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            
+            .services-content {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .services-card {
+                background-color: #fff;
+                padding: 20px;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 10px rgba(0, 0, )
+            }
